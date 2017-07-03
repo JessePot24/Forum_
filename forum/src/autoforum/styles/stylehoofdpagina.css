@@ -1,0 +1,169 @@
+body {
+	background: url('../images/baxk.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background-color:darkslateblue;
+    color:white;
+    clear:both;
+    text-align: center;
+	width: 100%;
+	position:absolute;
+   	bottom:0;
+
+}
+
+#navbartext {
+	color: whitesmoke;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px solid;
+	border-color: darkslateblue;
+	background-color: darkslateblue;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslateblue;
+
+}
+
+li {
+    float: left;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: slateblue;
+}
+
+.login {
+	text-align: center;
+	position: relative;
+	top: 30px;
+}
+
+.form {
+	height: 30px;
+	width: 200px;
+	position: relative;
+	top: 10px;
+}
+
+#loginbutton {
+	position: relative;
+	top: 20px;
+	background-color: #483D8B;
+	height: 30px;
+	width: 70px;
+	border: none;
+	color: white;
+}
+
+#loginbutton:hover {
+	background-color: slateblue;
+	border: none;
+}
+
+#register {
+	position: relative;
+	top: 30px;
+	color: white;
+}
+
+.login {
+	color: white;
+
+}
+
+#topic {
+    color: whitesmoke;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px solid;
+	border-color: darkslateblue;
+	background-color: darkslateblue;
+	position: relative;
+	margin-top: 10px;
+	text-align:center;
+}
+
+#topic a {
+	color:white;
+	text-decoration: none;
+}
+
+#topic a:hover {
+	color:grey;
+}
+
+#post {
+	color: whitesmoke;
+	font-style: italic;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px solid;
+	border-color: darkslateblue;
+	background-color: darkslateblue;
+	position: relative;
+	margin-top: 10px;
+	text-align:center;
+}
+
+#post a {
+	color:white;
+	text-decoration: none;
+}
+
+#post a:hover {
+	color: grey;
+}
+
+#topicbutton {
+	position: relative;
+	top: 20px;
+	background-color: #483D8B;
+	border: none;
+	color: white;
+}
+
+#topicbutton:hover {
+	background-color: slateblue;
+	border: none;
+}
+
+#view_post {
+	color: whitesmoke;
+	background-color: darkslateblue;
+	text-align: center;
+	width: 50%;
+    margin: 0 auto;
+}
+
+#replies {
+	color: whitesmoke;
+	background-color: darkslateblue;
+	text-align: center;
+	width: 50%;
+    margin: 0 auto;
+}
